@@ -7,13 +7,7 @@ export default async function Homepage() {
 
   return (
     <div>
-      <h1>Keystatic ⚡️</h1>
-      <p>This homepage shows how to load a collection from the reader API.</p>
-      <p>
-        <a href="/keystatic">Click here to visit the Admin UI</a>, or the link
-        below to view a post in the collection.
-      </p>
-      <h2>Posts</h2>
+   <h1>changes</h1>
       <ul>
         {posts.map(post => (
           <li key={post.slug}>
